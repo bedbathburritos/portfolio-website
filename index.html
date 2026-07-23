@@ -3,310 +3,234 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Tanner Smith - Portfolio</title>
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
-        type="text/css" />
-    <!-- Core theme CSS (includes Bootstrap)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description"
+        content="Tanner Smith — Full Stack Web Developer in Oklahoma City. Portfolio featuring Fanwave, BrainBud, Rocksalt, and Agile Poker." />
+    <title>Tanner Smith — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=Outfit:wght@500;600;700&display=swap"
+        rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" />
 </head>
 
-<body id="page-top">
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg bg-nav text-uppercase fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#home">Tanner Smith</a><button
-                class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
-                type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
-                aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                            href="#page-top">Home</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                            href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                            href="#skills">Skills</a></li>
-                </ul>
-            </div>
+<body>
+    <nav class="nav" id="mainNav">
+        <div class="nav__inner container">
+            <a class="nav__brand" href="#home">Tanner Smith</a>
+            <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav__links" id="navLinks">
+                <li><a class="nav__link active" href="#home">Home</a></li>
+                <li><a class="nav__link" href="#work">Work</a></li>
+                <li><a class="nav__link" href="#skills">Skills</a></li>
+            </ul>
         </div>
     </nav>
-    <!-- Masthead-->
-    <header class="masthead bg-masthead text-white text-center">
-        <div class="container d-flex align-items-center flex-column">
-            <!-- Masthead Avatar Image-->
-            <img class="masthead-avatar mb-5" src="assets/img/headshot.jpeg" alt="" />
-            <h1 class="masthead-heading text-uppercase mb-0">Tanner Smith</h1>
-            <!-- Icon Divider-->
-            <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-laptop-code"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-            <!-- Masthead Subheading-->
-            <p class="masthead-subheading font-weight-light mb-0">Full Stack Web Developer</p>
+
+    <header class="hero" id="home">
+        <div class="hero__blobs" aria-hidden="true">
+            <span class="hero__blob hero__blob--1"></span>
+            <span class="hero__blob hero__blob--2"></span>
+            <span class="hero__blob hero__blob--3"></span>
+        </div>
+        <div class="container hero__content reveal">
+            <img class="hero__avatar" src="assets/img/headshot.jpeg" alt="Tanner Smith" />
+            <p class="hero__eyebrow">Full Stack Web Developer</p>
+            <h1 class="hero__title">Tanner Smith</h1>
+            <p class="hero__tagline">I build products that solve real problems — from live music platforms to privacy-first civic tools.</p>
+            <a class="btn btn--primary hero__cta" href="#work">
+                See my work
+                <svg class="btn__arrow" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                    <path d="M4 10h12M11 5l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </a>
         </div>
     </header>
-    <!-- Portfolio Section-->
-    <section class="page-section portfolio bg-port" id="portfolio">
+
+    <section class="section section--work" id="work">
         <div class="container">
-            <!-- Portfolio Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Portfolio</h2>
-            <!-- Icon Divider-->
-            <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fab fa-github text-white"></i></div>
-                <div class="divider-custom-line"></div>
+            <div class="section__header reveal">
+                <h2 class="section__title">Selected Work</h2>
+                <p class="section__subtitle">Projects I'm proud of — click any card to visit.</p>
             </div>
-            <!-- Portfolio Grid Items-->
-            <div class="row">
-                <!-- Portfolio Item 1-->
-                <div class="col-lg-6 mb-5">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                        <div
-                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i
-                                    class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/hydr8tehome.PNG" alt="" />
+            <div class="projects">
+                <a class="project-card reveal" href="https://fanwave.io" target="_blank" rel="noopener noreferrer">
+                    <div class="project-card__visual project-card__visual--fanwave">
+                        <svg class="project-card__icon" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                            <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="1.5" opacity="0.4" />
+                            <path d="M16 30V18l8 6 8-6v12" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
                     </div>
-                </div>
-                <!-- Portfolio Item 2 -->
-                <div class="col-lg-6 mb-5">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-                        <div
-                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i
-                                    class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/weatherapp.PNG" alt="" />
+                    <div class="project-card__body">
+                        <h3 class="project-card__title">Fanwave</h3>
+                        <p class="project-card__desc">Live music platform where artists get booked and fans collect show moments. Landing page and full app.</p>
+                        <span class="project-card__link">
+                            Visit fanwave.io
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                                <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </span>
                     </div>
-                </div>
-                <!-- Portfolio Item 3-->
-                <div class="col-lg-6 mb-5">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-                        <div
-                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i
-                                    class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/musicquiz.PNG" alt="" />
+                </a>
+
+                <a class="project-card reveal" href="https://brainbud.app" target="_blank" rel="noopener noreferrer">
+                    <div class="project-card__visual project-card__visual--brainbud">
+                        <svg class="project-card__icon" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                            <path d="M24 8c-6 0-10 4-10 10 0 4 2 7 5 9-2 2-3 5-3 8 0 6 4 9 8 9s8-3 8-9c0-3-1-6-3-8 3-2 5-5 5-9 0-6-4-10-10-10z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                        </svg>
                     </div>
-                </div>
+                    <div class="project-card__body">
+                        <h3 class="project-card__title">BrainBud</h3>
+                        <p class="project-card__desc">Browser extension and landing page that helps you reclaim independent thinking from AI autopilot.</p>
+                        <span class="project-card__link">
+                            Visit brainbud.app
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                                <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                    </div>
+                </a>
+
+                <a class="project-card reveal" href="https://github.com/rocksaltdev/rocksalt" target="_blank"
+                    rel="noopener noreferrer">
+                    <div class="project-card__visual project-card__visual--rocksalt">
+                        <svg class="project-card__icon" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                            <path d="M8 36l8-24 8 12 8-8 8 20H8z" stroke="currentColor" stroke-width="1.5"
+                                stroke-linejoin="round" />
+                            <circle cx="34" cy="14" r="3" stroke="currentColor" stroke-width="1.5" />
+                        </svg>
+                    </div>
+                    <div class="project-card__body">
+                        <h3 class="project-card__title">Rocksalt</h3>
+                        <p class="project-card__desc">Open-source ICE reporting platform — real-time crowdsourced map built for speed, anonymity, and resilience.</p>
+                        <span class="project-card__link">
+                            View on GitHub
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                                <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                    </div>
+                </a>
+
+                <a class="project-card reveal" href="https://v0-agile-poker-web.vercel.app" target="_blank"
+                    rel="noopener noreferrer">
+                    <div class="project-card__visual project-card__visual--poker">
+                        <svg class="project-card__icon" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                            <rect x="10" y="6" width="28" height="36" rx="3" stroke="currentColor" stroke-width="1.5" />
+                            <text x="24" y="30" text-anchor="middle" fill="currentColor" font-size="14"
+                                font-weight="600">8</text>
+                        </svg>
+                    </div>
+                    <div class="project-card__body">
+                        <h3 class="project-card__title">Agile Poker</h3>
+                        <p class="project-card__desc">Real-time planning poker for dev teams. JackBox-style rooms — no accounts, no tracking, just estimate.</p>
+                        <span class="project-card__link">
+                            Try it live
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                                <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
-    <!-- Skills Section-->
-    <section class="page-section bg-masthead text-white mb-0" id="skills">
+
+    <section class="section section--skills" id="skills">
         <div class="container">
-            <!-- Skills Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-white">Skills</h2>
-            <!-- Icon Divider-->
-            <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-user-circle"></i></div>
-                <div class="divider-custom-line"></div>
+            <div class="section__header reveal">
+                <h2 class="section__title">Skills</h2>
+                <p class="section__subtitle">Technologies I work with day to day.</p>
             </div>
-            <!-- Skills Section Content-->
-            <div class="row">
-                <div class="col-lg-6 m-auto">
-                    <p class="lead text-center mb-5">
-                        A very particular set of skills that I have acquired over the years that make me an asset to
-                        companies like yours.</p>
-                    <ul>
-                        <li>HTML & CSS</li>
-                        <li>JavaScript (ES5 & ES6)</li>
-                        <li>MongoDB, Express, Angular, ReactJS, Node.js</li>
-                        <li>jQuery, AJAX</li>
-                        <li>MySQL, MySQL Workbench, SQLite</li>
+            <div class="skills reveal">
+                <div class="skills__group">
+                    <h3 class="skills__label">Frontend</h3>
+                    <ul class="skills__tags">
+                        <li>HTML &amp; CSS</li>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>React</li>
+                        <li>Angular</li>
+                    </ul>
+                </div>
+                <div class="skills__group">
+                    <h3 class="skills__label">Backend</h3>
+                    <ul class="skills__tags">
+                        <li>Node.js</li>
                         <li>Python</li>
                         <li>Flask</li>
-                        <li>Bootstrap 3 & 4, Minimal, Normalize</li>
-                        <li>Balsamiq, InVision, Adobe CS</li>
-                        <li>AWS EC2, Heroku, FireBase</li>
-                        <li>Git, GitHub, BitBucket</li>
-                        <li>SalesForce, ProsperWorks, & PipeDrive</li>
+                        <li>MongoDB</li>
+                        <li>MySQL</li>
+                        <li>Express</li>
+                    </ul>
+                </div>
+                <div class="skills__group">
+                    <h3 class="skills__label">Tools &amp; Cloud</h3>
+                    <ul class="skills__tags">
+                        <li>Git &amp; GitHub</li>
+                        <li>AWS</li>
+                        <li>Firebase</li>
+                        <li>Heroku</li>
+                        <li>Vercel</li>
+                        <li>Docker</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Footer-->
-    <footer class="footer text-center">
-        <div class="container">
-            <div class="row">
-                <!-- Footer Location-->
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">Location</h4>
-                    <p class="lead mb-0">Oklahoma City, OK</p>
-                </div>
-                <!-- Footer Social Icons-->
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">Around the Web</h4>
-                    <a class="btn btn-outline-light btn-social mx-1"
-                        href="http://www.linkedin.com/in/stephentannersmith"><i
-                            class="fab fa-fw fa-linkedin-in"></i></a><a class="btn btn-outline-light btn-social mx-1"
-                        href="http://www.github.com/stephentannersmith"><i class="fab fa-fw fa-github"></i></a>
-                </div>
-                <!-- Footer About Text-->
-                <div class="col-lg-4">
-                    <a class="btn btn-xl btn-outline-light" href="assets/Tanner Smith Resume 2023.pdf"
-                        download="Tanner_Smith_Resume"><i class="fas fa-download mr-2"></i>Download Resume</a>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
-    <div class="scroll-to-top d-lg-none position-fixed">
-        <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i
-                class="fa fa-chevron-up"></i></a>
-    </div>
-    <!-- Portfolio Modals-->
-    <!-- Portfolio Modal 1-->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog"
-        aria-labelledby="portfolioModal1Label" aria-hidden="true">
-        <div class="modal-dialog modal-xl" role="document">
-            <div class="modal-content">
-                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                </button>
-                <div class="modal-body text-center">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Hydr8te</h2>
-                                <!-- Icon Divider-->
-                                <div class="divider-custom">
-                                    <div class="divider-custom-line"></div>
-                                    <div class="divider-custom-line"></div>
-                                </div>
-                                <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5"
-                                    src="assets/img/hydr8tehome.PNG" alt="website screenshot" />
-                                <!-- Portfolio Modal - Text-->
-                                <p class="mb-5">Built with HTML, CSS, and JavaScript front end and Python/Flask back
-                                    end, Hydr8te was created with a goal of total hydration in mind. The original
-                                    concept was to be a mobile application (which I am in the process of developing and
-                                    learning more about) and the app would use push notifications to let the user know
-                                    when they haven't logged their hydration every few hours. The site uses Bootstrap,
-                                    jQuery, HTML, CSS, and JS algorithms to dynamically display the content and be
-                                    mobile friendly. The site also features a fully functioning back end Database using
-                                    Python and Flask. Packages used are session, flash, SQLAlchemy, migrate, and Bcrypt
-                                    packages. SQLAlchemy streamlined MySQL database query usage. This allows users to
-                                    create an account with an encrypted password and email. Users sign up and save their
-                                    progress in an easy-to-read table of entries that adds to the progress bar for the
-                                    day of hydration.</p>
-                                <a class="btn btn-primary" href="https://github.com/stephentannersmith/water_tracker"><i
-                                        class="fab fa-github"></i> Check out the code!</a>
-                                <a class="btn btn-primary" href="https://hydr8te.herokuapp.com"><i
-                                        class="fas fa-laptop-code"></i> Live Demo</a>
-                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i
-                                        class="fas fa-times fa-fw"></i>Close Window</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Portfolio Modal 2-->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog"
-        aria-labelledby="portfolioModal2Label" aria-hidden="true">
-        <div class="modal-dialog modal-xl" role="document">
-            <div class="modal-content">
-                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                </button>
-                <div class="modal-body text-center">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">React Weather</h2>
-                                <!-- Icon Divider-->
-                                <div class="divider-custom">
-                                    <div class="divider-custom-line"></div>
 
-                                    <div class="divider-custom-line"></div>
-                                </div>
-                                <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5"
-                                    src="assets/img/weatherapp.PNG" alt="weather app screenshot" />
-                                <!-- Portfolio Modal - Text-->
-                                <p class="mb-5">Built with HTML, CSS, vanilla JS and the ReactJS library, React Weather
-                                    is a simple weather app that dynamically displays weather information using the JSON
-                                    object that is fetched from the OpenWeather API. It uses the React library to
-                                    display components with very little static HTML.</p>
-                                <a class="btn btn-primary" href="https://github.com/stephentannersmith/weather-app"><i
-                                        class="fab fa-github"></i> Check out the code!</a>
-                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i
-                                        class="fas fa-times fa-fw"></i>Close Window</button>
-                            </div>
-                        </div>
-                    </div>
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div class="footer__col">
+                <h3 class="footer__heading">Location</h3>
+                <p>Oklahoma City, OK</p>
+            </div>
+            <div class="footer__col">
+                <h3 class="footer__heading">Connect</h3>
+                <div class="footer__social">
+                    <a href="https://www.linkedin.com/in/stephentannersmith" target="_blank" rel="noopener noreferrer"
+                        aria-label="LinkedIn">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path
+                                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 114.126 0 2.063 2.063 0 01-2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                        </svg>
+                    </a>
+                    <a href="https://github.com/stephentannersmith" target="_blank" rel="noopener noreferrer"
+                        aria-label="GitHub">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path
+                                d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
+                        </svg>
+                    </a>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog"
-        aria-labelledby="portfolioModal3Label" aria-hidden="true">
-        <div class="modal-dialog modal-xl" role="document">
-            <div class="modal-content">
-                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                </button>
-                <div class="modal-body text-center">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Music Quiz</h2>
-                                <!-- Icon Divider-->
-                                <div class="divider-custom">
-                                    <div class="divider-custom-line"></div>
-                                    <div class="divider-custom-line"></div>
-                                </div>
-                                <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5"
-                                    src="assets/img/musicquiz.PNG" alt="website screenshot" />
-                                <!-- Portfolio Modal - Text-->
-                                <p class="mb-5">Built with ReactJS and TypeScript, this music quiz was built as part
-                                    of a project to learn TypeScript and better understand API calls. It utilizes
-                                    the <a href="https://opentdb.com/api_config.php">OpenTriviaDB API</a> to
-                                    generate a music quiz in easy difficulty. Eventually I plan to add functionality
-                                    to allow the user to choose their own difficulty or implement other categories
-                                    as well.</p>
-                                <a class="btn btn-primary" href="https://github.com/stephentannersmith/music-quiz"><i
-                                        class="fab fa-github"></i> Check out the code!</a>
-                                <a class="btn btn-primary" href="https://music-quiz-1a483.web.app/">
-                                    <i class="fas fa-laptop-code"></i> Live Demo</a>
-                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i
-                                        class="fas fa-times fa-fw"></i>Close Window</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="footer__col">
+                <a class="btn btn--outline" href="assets/Tanner Smith Resume 2023.pdf"
+                    download="Tanner_Smith_Resume">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                        <path d="M12 3v12m0 0l4-4m-4 4l-4-4M4 17v2a2 2 0 002 2h12a2 2 0 002-2v-2"
+                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    Download Resume
+                </a>
             </div>
         </div>
-    </div>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <!-- Third party plugin JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <!-- Contact form JS-->
-    <script src="assets/mail/jqBootstrapValidation.js"></script>
-    <script src="assets/mail/contact_me.js"></script>
-    <!-- Core theme JS-->
+        <p class="footer__copy container">&copy; <span id="year"></span> Tanner Smith</p>
+    </footer>
+
     <script src="js/scripts.js"></script>
-    <script>
-        // Get the current year for the copyright
-        $('#year').text(new Date().getFullYear());
-    </script>
 </body>
 
 </html>
