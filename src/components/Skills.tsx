@@ -29,7 +29,9 @@ export default function Skills() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="section__title">Skills</h2>
-          <p className="section__subtitle">Technologies I work with day to day.</p>
+          <p className="section__subtitle">
+            Production skills from shipped projects and professional work.
+          </p>
         </motion.div>
 
         <div className="skills">

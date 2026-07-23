@@ -70,10 +70,10 @@ export const skillGroups: SkillGroup[] = [
     tags: [
       "TypeScript",
       "React",
+      "Angular",
       "Tailwind CSS",
+      "Mobile-First Design",
       "Chrome Extensions",
-      "Leaflet",
-      "Responsive UI",
     ],
   },
   {
@@ -81,21 +81,22 @@ export const skillGroups: SkillGroup[] = [
     icon: Server,
     tags: [
       "Node.js",
-      "Supabase",
+      "REST APIs",
       "PostgreSQL",
       "MongoDB",
-      "Real-time Sync",
-      "REST APIs",
+      "Supabase",
+      "Real-time Systems",
     ],
   },
   {
-    label: "Tools & Platforms",
+    label: "Tools & Delivery",
     icon: Cloud,
     tags: [
-      "Vite",
-      "Vercel",
       "Git & GitHub",
-      "i18n",
+      "CI/CD",
+      "Vercel",
+      "AWS",
+      "Agile / Scrum",
     ],
   },
 ];
