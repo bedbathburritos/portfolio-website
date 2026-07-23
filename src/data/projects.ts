@@ -8,6 +8,8 @@ import {
   Cloud,
   Smartphone,
   Sparkles,
+  ShieldCheck,
+  Boxes,
   type LucideIcon,
 } from "lucide-react";
 
@@ -81,6 +83,7 @@ export const skillGroups: SkillGroup[] = [
     label: "Mobile",
     icon: Smartphone,
     tags: [
+      "Swift",
       "Capacitor",
       "Mobile Development",
       "Mobile-First Design",
@@ -105,18 +108,39 @@ export const skillGroups: SkillGroup[] = [
       "LLMs",
       "Agentic AI",
       "AI-Assisted Development",
+      "Agentic Workflows",
     ],
   },
   {
-    label: "Tools & Delivery",
+    label: "Security",
+    icon: ShieldCheck,
+    tags: [
+      "Cybersecurity",
+      "Security Operations",
+      "Privacy by Design",
+      "IAM & Access Control",
+    ],
+  },
+  {
+    label: "Architecture",
+    icon: Boxes,
+    tags: [
+      "System Design",
+      "Cloud Architecture",
+      "Full-Stack Architecture",
+      "Agile / Scrum",
+    ],
+  },
+  {
+    label: "Platform & DevOps",
     icon: Cloud,
     tags: [
-      "Nx",
-      "Git & GitHub",
+      "AWS",
+      "Docker",
       "CI/CD",
       "Vercel",
-      "AWS",
-      "Agile / Scrum",
+      "Nx",
+      "Git & GitHub",
     ],
   },
 ];

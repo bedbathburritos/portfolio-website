@@ -30,7 +30,8 @@ export default function Skills() {
         >
           <h2 className="section__title">Skills</h2>
           <p className="section__subtitle">
-            Production skills from shipped projects and professional work.
+            Production skills from shipped projects, professional work, and the
+            Google Cybersecurity Professional Certificate.
           </p>
         </motion.div>
 
