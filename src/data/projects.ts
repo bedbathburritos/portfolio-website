@@ -67,17 +67,36 @@ export const skillGroups: SkillGroup[] = [
   {
     label: "Frontend",
     icon: Code2,
-    tags: ["HTML & CSS", "JavaScript", "TypeScript", "React", "Angular"],
+    tags: [
+      "TypeScript",
+      "React",
+      "Tailwind CSS",
+      "Chrome Extensions",
+      "Leaflet",
+      "Responsive UI",
+    ],
   },
   {
-    label: "Backend",
+    label: "Backend & Data",
     icon: Server,
-    tags: ["Node.js", "Python", "Flask", "MongoDB", "MySQL", "Express"],
+    tags: [
+      "Node.js",
+      "Supabase",
+      "PostgreSQL",
+      "MongoDB",
+      "Real-time Sync",
+      "REST APIs",
+    ],
   },
   {
-    label: "Tools & Cloud",
+    label: "Tools & Platforms",
     icon: Cloud,
-    tags: ["Git & GitHub", "AWS", "Firebase", "Heroku", "Vercel", "Docker"],
+    tags: [
+      "Vite",
+      "Vercel",
+      "Git & GitHub",
+      "i18n",
+    ],
   },
 ];
 
