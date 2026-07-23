@@ -6,6 +6,8 @@ import {
   Code2,
   Server,
   Cloud,
+  Smartphone,
+  Sparkles,
   type LucideIcon,
 } from "lucide-react";
 
@@ -72,8 +74,16 @@ export const skillGroups: SkillGroup[] = [
       "React",
       "Angular",
       "Tailwind CSS",
-      "Mobile-First Design",
       "Chrome Extensions",
+    ],
+  },
+  {
+    label: "Mobile",
+    icon: Smartphone,
+    tags: [
+      "Capacitor",
+      "Mobile Development",
+      "Mobile-First Design",
     ],
   },
   {
@@ -89,9 +99,19 @@ export const skillGroups: SkillGroup[] = [
     ],
   },
   {
+    label: "AI & Automation",
+    icon: Sparkles,
+    tags: [
+      "LLMs",
+      "Agentic AI",
+      "AI-Assisted Development",
+    ],
+  },
+  {
     label: "Tools & Delivery",
     icon: Cloud,
     tags: [
+      "Nx",
       "Git & GitHub",
       "CI/CD",
       "Vercel",
