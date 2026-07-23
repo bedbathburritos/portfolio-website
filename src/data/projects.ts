@@ -6,6 +6,10 @@ import {
   Code2,
   Server,
   Cloud,
+  Smartphone,
+  Sparkles,
+  ShieldCheck,
+  Boxes,
   type LucideIcon,
 } from "lucide-react";
 
@@ -67,17 +71,77 @@ export const skillGroups: SkillGroup[] = [
   {
     label: "Frontend",
     icon: Code2,
-    tags: ["HTML & CSS", "JavaScript", "TypeScript", "React", "Angular"],
+    tags: [
+      "TypeScript",
+      "React",
+      "Angular",
+      "Tailwind CSS",
+      "Chrome Extensions",
+    ],
   },
   {
-    label: "Backend",
+    label: "Mobile",
+    icon: Smartphone,
+    tags: [
+      "Swift",
+      "Capacitor",
+      "Mobile Development",
+      "Mobile-First Design",
+    ],
+  },
+  {
+    label: "Backend & Data",
     icon: Server,
-    tags: ["Node.js", "Python", "Flask", "MongoDB", "MySQL", "Express"],
+    tags: [
+      "Node.js",
+      "REST APIs",
+      "PostgreSQL",
+      "MongoDB",
+      "Supabase",
+      "Real-time Systems",
+    ],
   },
   {
-    label: "Tools & Cloud",
+    label: "AI & Automation",
+    icon: Sparkles,
+    tags: [
+      "LLMs",
+      "Agentic AI",
+      "AI-Assisted Development",
+      "Agentic Workflows",
+    ],
+  },
+  {
+    label: "Security",
+    icon: ShieldCheck,
+    tags: [
+      "Cybersecurity",
+      "Security Operations",
+      "Privacy by Design",
+      "IAM & Access Control",
+    ],
+  },
+  {
+    label: "Architecture",
+    icon: Boxes,
+    tags: [
+      "System Design",
+      "Cloud Architecture",
+      "Full-Stack Architecture",
+      "Agile / Scrum",
+    ],
+  },
+  {
+    label: "Platform & DevOps",
     icon: Cloud,
-    tags: ["Git & GitHub", "AWS", "Firebase", "Heroku", "Vercel", "Docker"],
+    tags: [
+      "AWS",
+      "Docker",
+      "CI/CD",
+      "Vercel",
+      "Nx",
+      "Git & GitHub",
+    ],
   },
 ];
 

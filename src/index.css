@@ -519,12 +519,7 @@ ul {
 .skills {
   display: grid;
   gap: 2rem;
-}
-
-@media (min-width: 640px) {
-  .skills {
-    grid-template-columns: repeat(3, 1fr);
-  }
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 .skills__label {
